@@ -6,11 +6,9 @@ var writeGrains = function (grains) {
 
   grains.forEach(function (blah) {
     document.write('<li>');
-    document.write('<dl>');
-    document.write('<dt><img src="images/' + blah.img + '" alt=""></dt>');
-    document.write('<dd><h2>' + blah.name + '</h2></dd>');
-    document.write('<dd>' + blah.desc + '</dd>');
-    document.write('</dl>');
+    document.write('<img src="images/' + blah.img + '" alt="">');
+    document.write('<h2>' + blah.name + '</h2>');
+    document.write('<p>' + blah.desc + '</p>');
     document.write('</li>');
   });
 

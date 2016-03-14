@@ -15,17 +15,20 @@ html {
 }
 
 .grains li {
-
+  display: inline;
+  float: left;
 }
 
 .grains img {
   width: 100px;
+  height: auto;
+  float: left;
 }
 
 .grains h2 {
-
+  display: block;
 }
 
 .grains p {
-
+  display: block;
 }
